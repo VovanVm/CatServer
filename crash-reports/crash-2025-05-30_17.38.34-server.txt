@@ -1,0 +1,69 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  LittlePatchingLoader (LittleTiles_v1.5.85_mc1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// I bet Cylons wouldn't have this problem.
+
+Time: 5/30/25 5:38 PM
+Description: Exception in server tick loop
+
+java.net.UnknownHostException: 172.25.22.214:25565: invalid IPv6 address literal
+	at java.net.InetAddress.invalidIPv6LiteralException(InetAddress.java:1149)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1119)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1065)
+	at java.net.InetAddress.getByName(InetAddress.java:1015)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:220)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:636)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.14.7-arch2-1
+	Java Version: 1.8.0_452, Arch Linux
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Arch Linux
+	Memory: 2089628656 bytes (1992 MB) / 2774007808 bytes (2645 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 2 total; -Xmx4G -Xms2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:92)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.crash.CrashReportCategory.func_189529_a(CrashReportCategory.java:96)
+	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:120)
+	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:41)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:716)
+	at java.lang.Thread.run(Thread.java:750)
+
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version      | Source                             | Signature |
+	|:----- |:----------------- |:------------ |:---------------------------------- |:--------- |
+	| LCH   | minecraft         | 1.12.2       | minecraft.jar                      | None      |
+	| LCH   | mcp               | 9.42         | minecraft.jar                      | None      |
+	| LCH   | FML               | 8.0.99.99    | catserver.jar                      | None      |
+	| LCH   | forge             | 14.23.5.2860 | catserver.jar                      | None      |
+	| LCH   | creativecoredummy | 1.0.0        | minecraft.jar                      | None      |
+	| LCH   | littletilescore   | 1.0.0        | minecraft.jar                      | None      |
+	| LCH   | creativecore      | 1.10.0       | CreativeCore_v1.10.71_mc1.12.2.jar | None      |
+	| LCH   | customnpcs        | 1.12         | CustomNPCs_1.12.2_05Jul20.jar      | None      |
+	| LCH   | littletiles       | 1.5.0        | LittleTiles_v1.5.85_mc1.12.2.jar   | None      |
+
+	Loaded coremods (and transformers): 
+CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  
+LittlePatchingLoader (LittleTiles_v1.5.85_mc1.12.2.jar)
+  com.creativemd.littletiles.LittleTilesTransformer
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

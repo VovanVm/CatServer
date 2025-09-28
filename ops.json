@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "e25adecd-9d6d-307b-af99-9eaa44cb1027",
+    "name": "vm",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a65f64cf-a6e2-3d58-9d16-87997b9ecc9f",
+    "name": "Vovan_Vm",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

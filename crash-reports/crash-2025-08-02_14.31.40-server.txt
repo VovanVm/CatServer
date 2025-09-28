@@ -1,0 +1,124 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  HCASM (hammerlib-1.12.2-12.2.58.jar)
+  CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  LittlePatchingLoader (LittleTiles_v1.5.85_mc1.12.2.jar)
+Contact their authors BEFORE contacting forge
+
+// Surprise! Haha. Well, this is awkward.
+
+Time: 8/2/25 2:31 PM
+Description: Exception in server tick loop
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from HammerLib (hammercore)
+Caused by: java.lang.NoClassDefFoundError: com/zeitheron/hammercore/lib/io/socket/client/IO
+	at com.zeitheron.chatoverhaul.lib.streamlabs.StreamlabsClient.start(StreamlabsClient.java:28)
+	at com.zeitheron.chatoverhaul.cfg.ConfigsCO.reloadCustom(ConfigsCO.java:19)
+	at com.zeitheron.hammercore.cfg.ConfigHolder.reload(ConfigHolder.java:82)
+	at com.zeitheron.hammercore.HammerCore.preInit(HammerCore.java:213)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:636)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:336)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:169)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:636)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.ClassNotFoundException: com.zeitheron.hammercore.lib.io.socket.client.IO
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 40 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 42 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.14.7-arch2-1
+	Java Version: 1.8.0_452, Arch Linux
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Arch Linux
+	Memory: 1880364784 bytes (1793 MB) / 2365063168 bytes (2255 MB) up to 3817865216 bytes (3641 MB)
+	JVM Flags: 2 total; -Xmx4G -Xms2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException
+	at org.bukkit.Bukkit.getName(Bukkit.java:92)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.crash.CrashReportCategory.func_189529_a(CrashReportCategory.java:96)
+	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:120)
+	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:41)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:716)
+	at java.lang.Thread.run(Thread.java:750)
+
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 15 mods loaded, 15 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version       | Source                              | Signature                                |
+	|:----- |:----------------- |:------------- |:----------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft         | 1.12.2        | minecraft.jar                       | None                                     |
+	| LCH   | mcp               | 9.42          | minecraft.jar                       | None                                     |
+	| LCH   | FML               | 8.0.99.99     | catserver.jar                       | None                                     |
+	| LCH   | forge             | 14.23.5.2860  | catserver.jar                       | None                                     |
+	| LCH   | creativecoredummy | 1.0.0         | minecraft.jar                       | None                                     |
+	| LCH   | littletilescore   | 1.0.0         | minecraft.jar                       | None                                     |
+	| LCE   | hammercore        | 12.2.58       | hammerlib-1.12.2-12.2.58.jar        | 9f5e2a811a8332a842b34f6967b7db0ac4f24856 |
+	| LC    | chatoverhaul      | 3r            | chatoverhaul-1.12.2-3r.jar          | 4d7b29cd19124e986da685107d16ce4b49bc0a97 |
+	| LC    | creativecore      | 1.10.0        | CreativeCore_v1.10.71_mc1.12.2.jar  | None                                     |
+	| LC    | customnpcs        | 1.12          | CustomNPCs_1.12.2_05Jul20.jar       | None                                     |
+	| LC    | ichunutil         | 7.2.2         | iChunUtil_1.12.2_7.2.2.jar          | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LC    | littletiles       | 1.5.0         | LittleTiles_v1.5.85_mc1.12.2.jar    | None                                     |
+	| LC    | moreplayermodels  | 1.12.2        | MorePlayerModels_1.12.2_05Dec19.jar | None                                     |
+	| LC    | portalgun         | 7.1.0         | PortalGun_1.12.2_7.1.0.jar          | 4db5c2bd1b556f252a5b8b54b256d381b2a0a6b8 |
+	| LC    | voicechat         | 1.12.2-2.5.35 | voicechat-forge-1.12.2-2.5.35.jar   | None                                     |
+
+	Loaded coremods (and transformers): 
+HCASM (hammerlib-1.12.2-12.2.58.jar)
+  com.zeitheron.hammercore.asm.HammerCoreTransformer
+CreativePatchingLoader (CreativeCore_v1.10.71_mc1.12.2.jar)
+  
+LittlePatchingLoader (LittleTiles_v1.5.85_mc1.12.2.jar)
+  com.creativemd.littletiles.LittleTilesTransformer
+	HammerLib Debug Information: 
+		Dependent Mods:
+			-Chat Overhaul (chatoverhaul) @ 3r
+
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

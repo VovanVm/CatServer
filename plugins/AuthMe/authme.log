@@ -1,0 +1,114 @@
+[08-01 22:51:23]: [INFO] Created column 'regdate' and set the current timestamp, 1754077883472, to all 0 rows
+[08-01 22:51:23]: [INFO] SQLite Setup finished
+[08-01 22:51:24]: [INFO] No supported permissions system found! Permissions are disabled!
+[08-01 22:51:24]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[08-01 22:51:24]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+
+[08-01 22:51:24]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-01 22:51:25]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[08-01 22:51:25]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-01 22:51:25]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[08-01 22:53:16]: [FINE] Vovan_Vm registered 172.25.22.214
+[08-01 22:53:16]: [FINE] Vovan_Vm logged in!
+[08-01 22:57:59]: [FINE] Vovan_Vm logged in!
+[08-01 22:58:30]: [FINE] Vovan_Vm logged in!
+[08-01 23:08:51]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[08-01 23:09:27]: [INFO] SQLite Setup finished
+[08-01 23:09:27]: [INFO] No supported permissions system found! Permissions are disabled!
+[08-01 23:09:28]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[08-01 23:09:28]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+
+[08-01 23:09:28]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-01 23:09:29]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[08-01 23:09:29]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-01 23:09:29]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[08-01 23:09:47]: [FINE] Vovan_Vm logged in!
+[08-01 23:12:18]: [FINE] Vovan_Vm logged in!
+[08-01 23:54:31]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[08-02 00:31:18]: [INFO] SQLite Setup finished
+[08-02 00:31:20]: [INFO] No supported permissions system found! Permissions are disabled!
+[08-02 00:31:20]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[08-02 00:31:20]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+
+[08-02 00:31:21]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-02 00:31:22]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 00:31:22]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 00:31:22]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[08-02 00:32:03]: [FINE] Vovan_Vm logged in!
+[08-02 00:32:24]: [INFO] Vovan_Vm logged out
+[08-02 00:32:28]: [FINE] Vovan_Vm logged in!
+[08-02 00:49:02]: [FINE] Vovan_Vm logged in!
+[08-02 01:44:42]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[08-02 15:47:00]: [INFO] SQLite Setup finished
+[08-02 15:47:01]: [INFO] No supported permissions system found! Permissions are disabled!
+[08-02 15:47:02]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[08-02 15:47:02]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:607)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:465)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:560)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:244)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:359)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1243)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1177)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1071)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1005)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Thread.java:750)
+
+[08-02 15:47:03]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-02 15:47:03]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[08-02 15:47:03]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-02 15:47:03]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[08-02 15:47:27]: [FINE] Vovan_Vm logged in!
+[08-02 15:53:21]: [FINE] Vovan_Vm logged in!
+[08-02 16:00:03]: [INFO] Vovan_Vm logged out
+[08-02 16:00:43]: [INFO] AuthMe 5.4.0-b1877 disabled!

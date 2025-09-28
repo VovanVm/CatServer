@@ -1,0 +1,101 @@
+{
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        },
+        {
+            "Points": 0,
+            "Faction": 2
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "QuestData": {
+        "CompletedQuests": [
+            {
+                "Quest": 2,
+                "Date": 3013880L
+            },
+            {
+                "Quest": 4,
+                "Date": 2988633L
+            },
+            {
+                "Quest": 5,
+                "Date": 3065883L
+            },
+            {
+                "Quest": 6,
+                "Date": 3078394L
+            },
+            {
+                "Quest": 7,
+                "Date": 3078738L
+            },
+            {
+                "Quest": 8,
+                "Date": 3079032L
+            },
+            {
+                "Quest": 9,
+                "Date": 3079301L
+            }
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 16
+        },
+        {
+            "Dialog": 17
+        },
+        {
+            "Dialog": 4
+        },
+        {
+            "Dialog": 5
+        },
+        {
+            "Dialog": 6
+        },
+        {
+            "Dialog": 7
+        },
+        {
+            "Dialog": 8
+        },
+        {
+            "Dialog": 10
+        },
+        {
+            "Dialog": 11
+        },
+        {
+            "Dialog": 12
+        },
+        {
+            "Dialog": 13
+        },
+        {
+            "Dialog": 14
+        }
+    ],
+    "ItemGiverChained": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "vm",
+    "UUID": "e25adecd-9d6d-307b-af99-9eaa44cb1027",
+    "ScriptStoreddata": {
+    }
+}

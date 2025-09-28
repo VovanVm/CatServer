@@ -1,0 +1,59 @@
+---- Minecraft Crash Report ----
+// Oops.
+
+Time: 5/25/25, 10:46 AM
+Description: Exception in server tick loop
+
+java.lang.NoSuchMethodError: 'void sun.misc.Unsafe.ensureClassInitialized(java.lang.Class)'
+	at catserver.server.launch.Java11Support$FieldHelper.setStatic(Java11Support.java:47)
+	at catserver.server.launch.Java11Support$FieldHelper.set(Java11Support.java:35)
+	at net.minecraftforge.registries.ObjectHolderRef$FinalFieldHelper.setField(ObjectHolderRef.java:180)
+	at net.minecraftforge.registries.ObjectHolderRef.apply(ObjectHolderRef.java:146)
+	at net.minecraftforge.registries.ObjectHolderRegistry.applyObjectHolders(ObjectHolderRegistry.java:170)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:853)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:630)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:336)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:169)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:636)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.14.7-arch2-1
+	Java Version: 24.0.1, Arch Linux
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Arch Linux
+	Memory: 1962140800 bytes (1871 MB) / 2147483648 bytes (2048 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 2 total; -Xmx4G -Xms2G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: 
+   Failed to handle CraftCrashReport:
+java.lang.NullPointerException: Cannot invoke "org.bukkit.Server.getName()" because "org.bukkit.Bukkit.server" is null
+	at org.bukkit.Bukkit.getName(Bukkit.java:92)
+	at org.bukkit.craftbukkit.v1_12_R1.CraftCrashReport.call(CraftCrashReport.java:20)
+	at net.minecraft.crash.CrashReportCategory.func_189529_a(CrashReportCategory.java:96)
+	at net.minecraft.crash.CrashReport.func_71504_g(CrashReport.java:120)
+	at net.minecraft.crash.CrashReport.<init>(CrashReport.java:41)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:716)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID        | Version      | Source        | Signature |
+	|:----- |:--------- |:------------ |:------------- |:--------- |
+	| LCH   | minecraft | 1.12.2       | minecraft.jar | None      |
+	| LCH   | mcp       | 9.42         | minecraft.jar | None      |
+	| LCH   | FML       | 8.0.99.99    | catserver.jar | None      |
+	| LCH   | forge     | 14.23.5.2860 | catserver.jar | None      |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

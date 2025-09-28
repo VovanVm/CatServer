@@ -1,0 +1,60 @@
+{
+    "CompleterNpc": "Div",
+    "NextQuestId": -1,
+    "RandomReward": 0b,
+    "QuestRepeat": 1,
+    "QuestCompletion": 1,
+    "Title": "убить diller",
+    "Text": "",
+    "QuestFactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "RewardExp": 0,
+    "QuestCommand": "playsound minecraft:mc ambient @dp ~ ~ ~ 100000 1",
+    "QuestDialogs": [
+        {
+            "Value": 1,
+            "Slot": "diller"
+        }
+    ],
+    "ModRev": 18,
+    "Type": 2,
+    "QuestMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1750579613943L,
+        "Time": 0L,
+        "Subject": ""
+    },
+    "Rewards": {
+        "NpcMiscInv": [
+            {
+                "Slot": 0b,
+                "ForgeCaps": {
+                    "customnpcs:itemscripteddata": {
+                    }
+                },
+                "id": "minecraft:double_plant",
+                "Count": 20b,
+                "tag": {
+                    "display": {
+                        "Name": "§a1РУБЛЬ"
+                    }
+                },
+                "Damage": 0s
+            }
+        ]
+    },
+    "CompleteText": "",
+    "NextQuestTitle": ""
+}

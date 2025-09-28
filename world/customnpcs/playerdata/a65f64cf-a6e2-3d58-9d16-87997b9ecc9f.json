@@ -1,0 +1,121 @@
+{
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        },
+        {
+            "Points": 1000,
+            "Faction": 1
+        },
+        {
+            "Points": 0,
+            "Faction": 2
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "QuestData": {
+        "CompletedQuests": [
+            {
+                "Quest": 1,
+                "Date": 2426953L
+            },
+            {
+                "Quest": 2,
+                "Date": 2665410L
+            },
+            {
+                "Quest": 4,
+                "Date": 2645217L
+            },
+            {
+                "Quest": 5,
+                "Date": 2673815L
+            },
+            {
+                "Quest": 6,
+                "Date": 2844112L
+            },
+            {
+                "Quest": 7,
+                "Date": 2846406L
+            },
+            {
+                "Quest": 8,
+                "Date": 2848020L
+            },
+            {
+                "Quest": 9,
+                "Date": 2848316L
+            }
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 1
+        },
+        {
+            "Dialog": 3
+        },
+        {
+            "Dialog": 4
+        },
+        {
+            "Dialog": 5
+        },
+        {
+            "Dialog": 6
+        },
+        {
+            "Dialog": 7
+        },
+        {
+            "Dialog": 8
+        },
+        {
+            "Dialog": 9
+        },
+        {
+            "Dialog": 10
+        },
+        {
+            "Dialog": 11
+        },
+        {
+            "Dialog": 12
+        },
+        {
+            "Dialog": 13
+        },
+        {
+            "Dialog": 14
+        },
+        {
+            "Dialog": 15
+        },
+        {
+            "Dialog": 16
+        },
+        {
+            "Dialog": 17
+        }
+    ],
+    "ItemGiverChained": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Vovan_Vm",
+    "UUID": "a65f64cf-a6e2-3d58-9d16-87997b9ecc9f",
+    "ScriptStoreddata": {
+    }
+}
